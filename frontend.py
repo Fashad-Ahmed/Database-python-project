@@ -3,7 +3,7 @@ import backend
 
 def get_selected_row(event):
     global selected_row
-    # selects the cursor location
+    # select the cursor location
 
     index = list.curselection()[0]
     selected_row = list.get(index)
